@@ -1,11 +1,11 @@
 ## Dynamic and Static Topic Models
-We propose a dynamic and static topic model, which simultaneously considers the dynamic structures of the temporal topic evolution and the static structures of the topic hierarchyat each time. 
+We propose a dynamic and static topic model, which simultaneously considers the dynamic structures of the temporal topic evolution and the static structures of the topic hierarchy at each time. 
 [paper](https://www.aclweb.org/anthology/P18-2082).
 
 ## How to run
 Clone & Build:
 ```
-git clone 〜〜〜
+git clone https://github.com/scapegoat06/dynamic-static-topic-model.git
 cd src/
 g++ -Wall -O2 -o dstm.cc
 g++ -Wall -O2 -c main.cc
